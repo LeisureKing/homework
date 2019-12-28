@@ -1,27 +1,27 @@
 public class MyPoint
 {
    /**
-	*@Comments:           Ö÷·½·¨
+	*@Comments:           ä¸»æ–¹æ³•
 	*@return              void
     */
    public static void main(String args[])
 	{
-		Point stary, start;      //Point¶ÔÏóµÄÒ»¸öÒıÓÃ£¬¶ÔÏóÃûÊÇstart
-		Point end = new Point(10, 10);        //Point¶ÔÏóµÄÒ»¸öÒıÓÃ£¬¶ÔÏóÃûÊÇend
-		stary = end;//ÔÚ¶ÑÖĞ¿ª±ÙµØÖ·£¬ÊµÀı»¯¶ÔÏó£¬²¢°ÑµØÖ·´«¸østart
-		System.out.println("start:x="+stary.getX()+"   y="+stary.getY());     //ÓÃ±ê×¼»¯Êä³öÁ÷Êä³östartµÄ³ÉÔ±±äÁ¿xºÍy
-		System.out.println("end:x="+end.getX()+"   y="+end.getY());           //ÓÃ±ê×¼»¯Êä³öÁ÷Êä³öendµÄ³ÉÔ±±äÁ¿xºÍy
+		Point stary, start;      //Pointå¯¹è±¡çš„ä¸€ä¸ªå¼•ç”¨ï¼Œå¯¹è±¡åæ˜¯start
+		Point end = new Point(10, 10);        //Pointå¯¹è±¡çš„ä¸€ä¸ªå¼•ç”¨ï¼Œå¯¹è±¡åæ˜¯end
+		stary = end;//åœ¨å †ä¸­å¼€è¾Ÿåœ°å€ï¼Œå®ä¾‹åŒ–å¯¹è±¡ï¼Œå¹¶æŠŠåœ°å€ä¼ ç»™start
+		System.out.println("start:x="+stary.getX()+"   y="+stary.getY());     //ç”¨æ ‡å‡†åŒ–è¾“å‡ºæµè¾“å‡ºstartçš„æˆå‘˜å˜é‡xå’Œy
+		System.out.println("end:x="+end.getX()+"   y="+end.getY());           //ç”¨æ ‡å‡†åŒ–è¾“å‡ºæµè¾“å‡ºendçš„æˆå‘˜å˜é‡xå’Œy
 
-		stary.setX(20);       //ÎªstartµÄ³ÉÔ±±äÁ¿x¸³Öµ20
-		stary.setY(20);       //ÎªstartµÄ³ÉÔ±±äÁ¿y¸³Öµ20
-		System.out.println("start:x="+stary.getX()+"   y="+stary.getY());     //ÓÃ±ê×¼»¯Êä³öÁ÷Êä³östartµÄ³ÉÔ±±äÁ¿xºÍy
-		System.out.println("end:x="+end.getX()+"   y="+end.getY());           //ÓÃ±ê×¼»¯Êä³öÁ÷Êä³öendµÄ³ÉÔ±±äÁ¿xºÍy
+		stary.setX(20);       //ä¸ºstartçš„æˆå‘˜å˜é‡xèµ‹å€¼20
+		stary.setY(20);       //ä¸ºstartçš„æˆå‘˜å˜é‡yèµ‹å€¼20
+		System.out.println("start:x="+stary.getX()+"   y="+stary.getY());     //ç”¨æ ‡å‡†åŒ–è¾“å‡ºæµè¾“å‡ºstartçš„æˆå‘˜å˜é‡xå’Œy
+		System.out.println("end:x="+end.getX()+"   y="+end.getY());           //ç”¨æ ‡å‡†åŒ–è¾“å‡ºæµè¾“å‡ºendçš„æˆå‘˜å˜é‡xå’Œy
 		
 		start = new Point();
 		start.setX(30);
 		start.setY(30);
-		System.out.println("start:x="+start.getX()+"   y="+start.getY());     //ÓÃ±ê×¼»¯Êä³öÁ÷Êä³östartµÄ³ÉÔ±±äÁ¿xºÍy
-		System.out.println("end:x="+end.getX()+"   y="+end.getY());           //ÓÃ±ê×¼»¯Êä³öÁ÷Êä³öendµÄ³ÉÔ±±äÁ¿xºÍy
+		System.out.println("start:x="+start.getX()+"   y="+start.getY());     //ç”¨æ ‡å‡†åŒ–è¾“å‡ºæµè¾“å‡ºstartçš„æˆå‘˜å˜é‡xå’Œy
+		System.out.println("end:x="+end.getX()+"   y="+end.getY());           //ç”¨æ ‡å‡†åŒ–è¾“å‡ºæµè¾“å‡ºendçš„æˆå‘˜å˜é‡xå’Œy
 
 	}
 }

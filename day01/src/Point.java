@@ -1,10 +1,10 @@
 public class Point
 {
-    private double x;//¶¨ÒåµãµÄx×ø±ê
-    private double y;//¶¨ÒåµãµÄy×ø±ê
+    private double x;//å®šä¹‰ç‚¹çš„xåæ ‡
+    private double y;//å®šä¹‰ç‚¹çš„yåæ ‡
 
     /**
-     * *¶¨ÒåÎŞ²ÎµÄ¹¹Ôì·½·¨
+     * *å®šä¹‰æ— å‚çš„æ„é€ æ–¹æ³•
      **/
     public Point(){ }
 
@@ -14,33 +14,33 @@ public class Point
     }
 
     /**
-     * *Éè¶¨µãµÄx×ø±ê
-     * *@param _x ´Óµ÷ÓÃ·½·¨ÖĞ´«ÈëµÄdoubleÀàĞÍµÄÊı¾İ
-     * *@return ÎŞ
+     * *è®¾å®šç‚¹çš„xåæ ‡
+     * *@param _x ä»è°ƒç”¨æ–¹æ³•ä¸­ä¼ å…¥çš„doubleç±»å‹çš„æ•°æ®
+     * *@return æ— 
      * */
     public void setX(double _x){
         this.x = _x;
     }
 
     /**
-     * *È¡µÃµãµÄx×ø±ê
-     * *@return doubleÀàĞÍµÄÊı¾İ
+     * *å–å¾—ç‚¹çš„xåæ ‡
+     * *@return doubleç±»å‹çš„æ•°æ®
      * */
     public double getX(){
         return this.x;
     }
 
     /**
-     * *Éè¶¨µãµÄy×ø±ê
-     * *@param _y ´Óµ÷ÓÃ·½·¨ÖĞ´«ÈëµÄdoubleÀàĞÍµÄÊı¾İ
-     * *@return ÎŞ
+     * *è®¾å®šç‚¹çš„yåæ ‡
+     * *@param _y ä»è°ƒç”¨æ–¹æ³•ä¸­ä¼ å…¥çš„doubleç±»å‹çš„æ•°æ®
+     * *@return æ— 
      * */
     public void setY(double _y){ this.y = _y; }
 
     /**
-     * *È¡µÃµãµÄy×ø±ê
+     * *å–å¾—ç‚¹çš„yåæ ‡
      * *@param
-     * *@return doubleÀàĞÍµÄÊı¾İ
+     * *@return doubleç±»å‹çš„æ•°æ®
      * */
     public double getY(){
     return this.y;
